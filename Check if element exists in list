@@ -1,0 +1,11 @@
+# to check the existence of elements in the list using count()
+
+mylist = [20,30,54,29,60]
+#search if x exists or not in list
+x=int(input())
+n = mylist.count(x)
+
+if(n==0):
+    print("Doesn't exist")
+else:
+    print("exist")
