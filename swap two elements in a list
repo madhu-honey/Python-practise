@@ -1,0 +1,10 @@
+#Note: position here for first element is 1 but index is 0
+#swap two elements in a list at position1 & position2 
+
+def swapele(list,i,j):
+    #pos1 = i, pos2 =j
+    list[i],list[j] = list[j],list[i]
+    return list
+mylist = [10,20,30,40,50]
+i,j=2,3
+print(swapele(mylist,i-1,j-1))
